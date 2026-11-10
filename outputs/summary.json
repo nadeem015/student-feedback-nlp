@@ -5,19 +5,19 @@
   "cluster_keywords": {
     "0": [
       "solving",
-      "solving problems",
       "confident solving",
-      "confident",
       "problems",
-      "group problem"
+      "confident",
+      "solving problems",
+      "problem solving"
     ],
     "1": [
       "office hours",
-      "hours",
       "office",
-      "attend",
+      "hours",
       "times",
-      "times attend"
+      "times attend",
+      "attend"
     ],
     "2": [
       "course",
@@ -47,17 +47,17 @@
       "helped",
       "lectures",
       "clear",
-      "confused arrived",
-      "confused",
-      "interactive quizzes"
+      "left",
+      "left lectures",
+      "arrived"
     ],
     "6": [
       "help",
       "hard",
       "examples",
-      "worked",
       "worked examples",
-      "hard help"
+      "worked",
+      "help deadlines"
     ]
   },
   "sentiment_counts": {
@@ -65,7 +65,7 @@
     "neutral": 15,
     "negative": 14
   },
-  "likert_vader_rank_correlation": 0.560194167450736,
+  "likert_vader_rank_correlation": 0.5601941674507362,
   "vader_accuracy_vs_labels": 0.6,
   "supervised_accuracy": 0.4
 }
