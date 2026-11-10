@@ -1,0 +1,63 @@
+Noise (no clear topic)  (size=7)
+  Top terms: hard, did, outdated, outdated errors, readings, readings outdated, errors, practice
+  Examples:
+   - assignments were too hard and did not reflect the lecture examples
+   - peer tutoring sessions were friendly and useful
+   - course website was disorganised and hard to navigate
+
+Cluster 0  (size=7)
+  Top terms: help, support, office, office hours, hours, deadlines, hard, hard help
+  Examples:
+   - help was available but i had to wait a long time
+   - it was hard to get help before deadlines
+   - support was good but more sample solutions are needed
+
+Cluster 1  (size=6)
+  Top terms: solving, class, problems, confident, confident solving, solving problems, motivation, working classmates
+  Examples:
+   - group problem solving in class kept me engaged
+   - i lost motivation halfway through the semester
+   - i felt intimidated asking questions in class
+
+Cluster 2  (size=3)
+  Top terms: activities, felt, felt repetitive, activities felt, repetitive, time finished, time, ran time
+  Examples:
+   - some activities felt repetitive
+   - activities often ran out of time before we finished
+   - in class activities were fine but sometimes felt rushed
+
+Cluster 3  (size=7)
+  Top terms: lectures, review, understanding, helped, left, arrived, enjoyable, quizzes lectures
+  Examples:
+   - the lectures were clear and helped me understand the key concepts
+   - i left most lectures more confused than when i arrived
+   - recorded lectures let me review difficult topics at my own pace
+
+Cluster 4  (size=10)
+  Top terms: assignments, homework, feedback, workload assignments, assignments week, week, workload, week exams
+  Examples:
+   - too many assignments were due in the same week as exams
+   - grading on the homework felt inconsistent between weeks
+   - homework was overwhelming and feedback was very slow
+
+Cluster 5  (size=7)
+  Top terms: subject, course, stayed, subject stayed, exams, course anxious, anxious exams, anxious
+  Examples:
+   - i love how the course connected the subject to everyday life
+   - this course made me enjoy the subject for the first time
+   - the course made me anxious about exams
+
+Cluster 6  (size=8)
+  Top terms: textbook, follow, step, worked examples, examples, worked, used, rarely used
+  Examples:
+   - the textbook was okay but more worked examples would help
+   - i understood the basics but the advanced material was confusing
+   - tutors were patient and explained things step by step
+
+Cluster 7  (size=5)
+  Top terms: theory, ideas, online simulations, simulations interesting, interesting, online, essential, interesting essential
+  Examples:
+   - the demonstrations helped me see how the theory works in practice
+   - the instructor explained difficult ideas with great real world analogies
+   - lab experiments made the theory come alive
+

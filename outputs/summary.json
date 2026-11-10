@@ -1,0 +1,71 @@
+{
+  "n_responses": 60,
+  "k": 7,
+  "silhouette": 0.014779972501388032,
+  "cluster_keywords": {
+    "0": [
+      "solving",
+      "solving problems",
+      "confident solving",
+      "confident",
+      "problems",
+      "group problem"
+    ],
+    "1": [
+      "office hours",
+      "hours",
+      "office",
+      "attend",
+      "times",
+      "times attend"
+    ],
+    "2": [
+      "course",
+      "subject",
+      "time",
+      "stayed",
+      "subject stayed",
+      "activities"
+    ],
+    "3": [
+      "exams",
+      "assignments",
+      "week",
+      "feel",
+      "support",
+      "advanced"
+    ],
+    "4": [
+      "felt",
+      "questions",
+      "homework",
+      "activities",
+      "class",
+      "felt repetitive"
+    ],
+    "5": [
+      "helped",
+      "lectures",
+      "clear",
+      "confused arrived",
+      "confused",
+      "interactive quizzes"
+    ],
+    "6": [
+      "help",
+      "hard",
+      "examples",
+      "worked",
+      "worked examples",
+      "hard help"
+    ]
+  },
+  "sentiment_counts": {
+    "positive": 31,
+    "neutral": 15,
+    "negative": 14
+  },
+  "likert_vader_rank_correlation": 0.560194167450736,
+  "vader_accuracy_vs_labels": 0.6,
+  "supervised_accuracy": 0.4
+}
