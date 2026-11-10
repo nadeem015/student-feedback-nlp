@@ -1,0 +1,61 @@
+student_id,section,likert_1_5,free_response,sentiment_label
+1,understanding,5,The lectures were clear and helped me understand the key concepts.,positive
+2,assignments,2,Assignments were too hard and did not reflect the lecture examples.,negative
+3,support,5,The TA and office hours were extremely helpful and supportive.,positive
+4,activities,5,Team based activities helped me learn a lot and were fun.,positive
+5,resources,3,The textbook was okay but more worked examples would help.,neutral
+6,attitude,2,I felt intimidated asking questions in class.,negative
+7,understanding,4,Worked examples in class made the hard topics much easier to follow.,positive
+8,assignments,1,Homework was overwhelming and feedback was very slow.,negative
+9,support,4,"Support was good, but more sample solutions are needed.",positive
+10,activities,4,Group problem solving in class kept me engaged.,positive
+11,resources,4,Lecture slides posted online were very useful for revision.,positive
+12,attitude,4,I am now much more confident solving problems on my own.,positive
+13,understanding,3,Some topics were unclear because the pacing was too fast.,negative
+14,assignments,4,The weekly problem sets were challenging but fair.,positive
+15,support,5,The instructor always answered emails quickly and kindly.,positive
+16,activities,2,Group work was frustrating because some members did nothing.,negative
+17,resources,2,The textbook was expensive and rarely used.,negative
+18,attitude,5,This course made me enjoy the subject for the first time.,positive
+19,understanding,2,I struggled to follow the derivations on the board.,negative
+20,assignments,3,Assignments took a long time but I learned from them.,neutral
+21,support,2,Office hours were at times I could never attend.,negative
+22,activities,5,The hands on lab activities were the highlight of the course.,positive
+23,resources,5,Recorded lectures let me review difficult topics at my own pace.,positive
+24,attitude,3,My interest in the subject stayed about the same.,neutral
+25,understanding,4,Concept maps at the end of each week really tied the ideas together.,positive
+26,assignments,2,Grading on the homework felt inconsistent between weeks.,negative
+27,support,4,The online discussion forum was a great place to get help.,positive
+28,activities,3,In class activities were fine but sometimes felt rushed.,neutral
+29,resources,4,Practice exams were excellent preparation.,positive
+30,attitude,2,The course made me anxious about exams.,negative
+31,understanding,3,I understood the basics but the advanced material was confusing.,neutral
+32,assignments,5,Detailed feedback on assignments helped me fix my mistakes.,positive
+33,support,3,Help was available but I had to wait a long time.,neutral
+34,activities,4,Think pair share exercises helped me check my understanding.,positive
+35,resources,2,Course website was disorganised and hard to navigate.,negative
+36,attitude,4,I feel more willing to take advanced courses now.,positive
+37,understanding,5,The instructor explained difficult ideas with great real world analogies.,positive
+38,assignments,2,Too many assignments were due in the same week as exams.,negative
+39,support,5,Tutors were patient and explained things step by step.,positive
+40,activities,2,Activities often ran out of time before we finished.,negative
+41,resources,3,Online simulations were interesting but not essential.,neutral
+42,attitude,5,I love how the course connected the subject to everyday life.,positive
+43,understanding,1,I left most lectures more confused than when I arrived.,negative
+44,assignments,4,The project assignment was the most useful part of the course.,positive
+45,support,2,It was hard to get help before deadlines.,negative
+46,activities,4,Interactive quizzes during lectures were enjoyable.,positive
+47,resources,4,The formula sheet and summary notes saved me a lot of time.,positive
+48,attitude,1,I lost motivation halfway through the semester.,negative
+49,understanding,3,Understanding improved after the midterm review session.,neutral
+50,assignments,3,Some homework questions were ambiguous.,neutral
+51,support,4,Peer tutoring sessions were friendly and useful.,positive
+52,activities,3,Some activities felt repetitive.,neutral
+53,resources,1,Readings were outdated and full of errors.,negative
+54,attitude,3,I am undecided about continuing in this field.,neutral
+55,understanding,4,The demonstrations helped me see how the theory works in practice.,positive
+56,assignments,1,The workload from assignments was unreasonable.,negative
+57,support,3,I did not use the support services much.,neutral
+58,activities,5,Lab experiments made the theory come alive.,positive
+59,resources,4,"Video tutorials were short, clear and helpful.",positive
+60,attitude,4,Working with classmates made me feel part of a community.,positive
