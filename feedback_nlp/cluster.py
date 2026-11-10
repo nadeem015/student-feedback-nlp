@@ -7,14 +7,14 @@ from sklearn.manifold import TSNE
 from sklearn.metrics import silhouette_score
 
 
-def reduce_dimensionality(X, pca_components=10, tsne_perplexity=30, tsne_iter=500, random_state=42):
+def reduce_dimensionality(X, pca_components=10, tsne_perplexity=30, tsne_iter=1000, random_state=42):
     """Project TF-IDF vectors to 2-D (PCA first, then t-SNE) for plotting."""
     X_arr = X.toarray() if hasattr(X, "toarray") else np.asarray(X)
     n_comp = max(2, min(pca_components, X_arr.shape[1], X_arr.shape[0] - 1))
     pca = PCA(n_components=n_comp, random_state=random_state)
     Xp = pca.fit_transform(X_arr)
     perplexity = float(min(tsne_perplexity, max(2, (Xp.shape[0] - 1) // 3)))
-    tsne_kwargs = dict(n_components=2, perplexity=perplexity, learning_rate=100,
+    tsne_kwargs = dict(n_components=2, perplexity=perplexity, learning_rate="auto",
                        init="pca", random_state=random_state)
     try:
         tsne = TSNE(max_iter=tsne_iter, **tsne_kwargs)          # scikit-learn >= 1.5
