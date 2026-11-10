@@ -20,7 +20,31 @@ TF-IDF can only group comments that share words. Embeddings group comments that 
 
 ## Results
 
-<!-- RESULTS -->
+These results come from running both pipelines on the 60-response synthetic sample in CI. The charts below are regenerated automatically on every push.
+
+| | Classic (TF-IDF + k-means) | Embeddings (MiniLM + UMAP + HDBSCAN) |
+|---|---|---|
+| Clusters found | 7 (k chosen by silhouette) | 8, plus 7 responses marked as noise |
+| Cluster quality | silhouette 0.015, and one catch-all cluster holds 27 of 60 responses | coherent topics: homework, support and deadlines, textbook and worked examples, lectures and quizzes, course attitude |
+
+| Sentiment check | Value |
+|---|---|
+| VADER label distribution | 31 positive, 15 neutral, 14 negative |
+| Rank correlation, Likert rating vs. VADER score | **0.56**: written comments broadly agree with the ratings |
+| VADER accuracy vs. human labels | 0.60 |
+| Supervised TF-IDF + LR (45 train / 15 test) | 0.40: too little data, as expected |
+
+**Takeaways:** on short comments, TF-IDF + k-means mostly groups responses by shared words and leaves one big mixed cluster. Sentence embeddings recover topics a person would recognise, and they flag the hard-to-place answers instead of forcing them into a cluster. VADER's agreement with the ratings is moderate. It misses domain phrases such as "challenging but fair", so human labels plus a supervised model would help on a real survey with a few hundred labelled responses.
+
+| Classic topics (t-SNE) | Embedding topics (UMAP) |
+|---|---|
+| ![k-means clusters](outputs/clusters_tsne.png) | ![embedding clusters](outputs/embedding_clusters.png) |
+
+| Sentiment by survey section | Comments vs. ratings |
+|---|---|
+| ![sentiment by section](outputs/stacked_sentiment.png) | ![Likert vs VADER](outputs/likert_vs_sentiment.png) |
+
+Cluster summaries with example responses are in [`outputs/embedding_cluster_summary.txt`](outputs/embedding_cluster_summary.txt), and the full classic results are in [`outputs/summary.json`](outputs/summary.json).
 
 ## Quick start
 

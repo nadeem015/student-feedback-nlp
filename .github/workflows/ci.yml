@@ -41,3 +41,27 @@ jobs:
         with:
           name: embedding-outputs
           path: outputs/
+
+  publish-outputs:
+    # Commit the example charts produced above so the README can show them.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [tests, embeddings]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+      - name: Commit updated example outputs
+        run: |
+          mkdir -p outputs
+          cp artifacts/classic-outputs/*.png artifacts/classic-outputs/summary.json outputs/
+          cp artifacts/embedding-outputs/*.png artifacts/embedding-outputs/*.txt outputs/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update example outputs from CI [skip ci]"
+          git push
